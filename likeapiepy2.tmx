@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="ground" tilewidth="40" tileheight="40">
+  <image source="imgs/ZigzagForest_MudSquare.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="2" name="40-40_BrickDarkGray" tilewidth="40" tileheight="40">
+  <image source="imgs/40-40_BrickDarkGray.png" width="40" height="40"/>
+ </tileset>
+ <tileset firstgid="3" name="40-40_CrateGreen" tilewidth="40" tileheight="40">
+  <image source="imgs/40-40_CrateGreen.png" width="40" height="40"/>
+ </tileset>
+ <tileset firstgid="4" name="40-40_CrateOrange" tilewidth="40" tileheight="40">
+  <image source="imgs/40-40_CrateOrange.png" width="40" height="40"/>
+ </tileset>
+ <tileset firstgid="5" name="40-40_CrateRed" tilewidth="40" tileheight="40">
+  <image source="imgs/40-40_CrateRed.png" width="40" height="40"/>
+ </tileset>
+ <tileset firstgid="6" name="text" tilewidth="40" tileheight="40">
+  <image source="imgs/text.png" width="720" height="540"/>
+ </tileset>
+ <tileset firstgid="240" name="block2" tilewidth="40" tileheight="40">
+  <image source="imgs/block2.png" width="40" height="40"/>
+ </tileset>
+ <layer name="background" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+IhgAHGRgEt
+  </data>
+ </layer>
+ <layer name="set" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzV1McNwjAAhWFLJDvQayii9wBDEGAC2gS0CWgT0KbMCPxI4YKMFCnOIU/6Lk/Wk32xLYSwFVMVv/bCiCCKGOJIIIkU0sggixwM5FFAEaWfvTIqqKKGOhpoooU2Ouiihz5MDDDEyOf3BmFvDAsTTDFz+iNOOOOCKzbYYoc9DpK9ORZYYoW1099wxwNPvFze75vQn7OapNNd7HmJbE915yWq/5WPN0QGVFM=
+  </data>
+ </layer>
+ <objectgroup name="triggers" visible="0">
+  <object name="answer" x="160" y="400" width="40" height="40">
+   <properties>
+    <property name="blocker" value="end"/>
+   </properties>
+  </object>
+  <object name="answer" x="400" y="400" width="40" height="40">
+   <properties>
+    <property name="blocker" value="end"/>
+   </properties>
+  </object>
+  <object name="answer" x="600" y="400" width="40" height="40">
+   <properties>
+    <property name="blocker" value="end"/>
+   </properties>
+  </object>
+  <object name="blocker" x="560" y="480" width="80" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="360" y="480" width="80" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="160" y="480" width="80" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="0" y="0" width="40" height="600">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="40" y="560" width="720" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="760" y="0" width="40" height="600">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="40" y="0" width="720" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="player" x="60" y="480" width="40" height="40">
+   <properties>
+    <property name="player" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

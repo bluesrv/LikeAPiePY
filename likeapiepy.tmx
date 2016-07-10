@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="18" tilewidth="40" tileheight="40" backgroundcolor="#00dede">
+ <tileset firstgid="1" name="WaveGrass_MudSquare" tilewidth="40" tileheight="40">
+  <image source="imgs/WaveGrass_MudSquare.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="2" name="play-01" tilewidth="40" tileheight="40">
+  <image source="imgs/play-01.png" width="40" height="40"/>
+ </tileset>
+ <tileset firstgid="3" name="10834324_10205307776315854_1287850984_o" tilewidth="40" tileheight="40">
+  <image source="imgs/10834324_10205307776315854_1287850984_o.jpg" width="2048" height="1024"/>
+ </tileset>
+ <tileset firstgid="1278" name="text2" tilewidth="40" tileheight="40">
+  <image source="imgs/text2.png" width="720" height="540"/>
+ </tileset>
+ <tileset firstgid="1512" name="SpearsUp_Brown" tilewidth="40" tileheight="40">
+  <image source="imgs/SpearsUp_Brown.png" width="64" height="50"/>
+ </tileset>
+ <tileset firstgid="1513" name="SpearsLeft_Brown" tilewidth="40" tileheight="40">
+  <image source="imgs/SpearsLeft_Brown.png" width="50" height="64"/>
+ </tileset>
+ <tileset firstgid="1514" name="WaveGrass_UpRoundLeft" tilewidth="40" tileheight="40">
+  <image source="imgs/WaveGrass_UpRoundLeft.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1515" name="WaveGrass_Square" tilewidth="40" tileheight="40">
+  <image source="imgs/WaveGrass_Square.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1516" name="WaveGrass_UpRoundRight" tilewidth="40" tileheight="40">
+  <image source="imgs/WaveGrass_UpRoundRight.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1517" name="WaveGrass_HalfSquare" tilewidth="40" tileheight="40">
+  <image source="imgs/WaveGrass_HalfSquare.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1518" name="ZigzagGrass_Squar" tilewidth="40" tileheight="40">
+  <image source="imgs/ZigzagGrass_Squar.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1519" name="block2" tilewidth="40" tileheight="40">
+  <image source="imgs/block2.png" width="40" height="40"/>
+ </tileset>
+ <layer name="background" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt0+lSjgEYBuC3923RvmIQOYhClmwl2aIOgsiSZJfdQVgKUURRthwEQvahoizpIFxNHQAzZr4ffT+uef48M/fMs0RBEERx01ZCGAQhEYkkkUwKM0gljXQyyCSLbHLIJY98CsJ/y16ov5gSFrGYJZSylGUsZwVlrGQVq1nDWsqpYB2VrKeKDWxkE5vZQjVb2UYNtWxnB3XsZBf17GYPe9lHA/tp5ABNHOQQhznCUY5xnBM0c5JTnOYMZznHeS5wkUtc5gottHKVa1ynjRvcpJ0ObnGbTu5wly66ucd9eujlAQ95xGOe0MdTnvGcF/Tzkle8ZoA3vOUd7/nARz7xecoXBhlimK98Y4RRvvODn/xijN+Mh5OHkEBIRCJJJJNCGqlTNZ0MMskimxxyySOfAmYyi9nRZP4cdS7zKGQ+CyiKYv9///2fY5w/Me9YzyAuvqe/9QdNr1Oj
+  </data>
+ </layer>
+ <layer name="text" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztzjEWwBAUBdHfWAkhJAj7X1ym1ig1b865/ZgppXZ5ZxZwISLhRkbBgxcVDR0fBqY7fa+UUmrtBwSPAvk=
+  </data>
+ </layer>
+ <layer name="set" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJx7z8owoOD9qP2j9o/aPyTtfwnU+w4Nk6qPkP0vSHAfIxn6sdlPjp+wAWLMITX8CZlHqnupnf4IhTey+/DFPzlxQIx6RiS1jFA+teKbGMCIxsaG0d2DDyMDYtTDzH/Bitt+UjC63+iNKbUfALPlRX8=
+  </data>
+ </layer>
+ <objectgroup name="triggers" visible="0">
+  <object name="blocker" x="-1" y="560" width="200" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="200" y="600" width="440" height="120">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="200" y="400" width="160" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="240" y="520" width="160" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="480" y="440" width="120" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="640" y="320" width="160" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="760" y="360" width="40" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="760" y="520" width="120" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="760" y="600" width="400" height="120">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="1160" y="640" width="80" height="80">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="1200" y="520" width="40" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="1120" y="480" width="40" height="120">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="920" y="400" width="160" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="1200" y="320" width="80" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="0" y="300" width="40" height="260">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="-1" y="0" width="40" height="300">
+   <properties>
+    <property name="blocker" value="collision"/>
+   </properties>
+  </object>
+  <object name="player" x="80" y="481" width="40" height="40">
+   <properties>
+    <property name="player" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="1240" y="480" width="40" height="240">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="blocker" x="800" y="440" width="40" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="traps" x="800" y="480" width="40" height="40">
+   <properties>
+    <property name="respawn" value=""/>
+    <property name="trap" value="up"/>
+   </properties>
+  </object>
+  <object name="traps" x="600" y="320" width="40" height="40">
+   <properties>
+    <property name="respawn" value=""/>
+    <property name="trap" value="left"/>
+   </properties>
+  </object>
+  <object name="traps" x="960" y="360" width="40" height="40">
+   <properties>
+    <property name="respawn" value=""/>
+    <property name="trap" value="up"/>
+   </properties>
+  </object>
+  <object name="traps" x="1200" y="600" width="40" height="40">
+   <properties>
+    <property name="respawn" value=""/>
+    <property name="trap" value="up"/>
+   </properties>
+  </object>
+  <object name="traps" x="1160" y="320" width="40" height="40">
+   <properties>
+    <property name="respawn" value=""/>
+    <property name="trap" value="left"/>
+   </properties>
+  </object>
+  <object name="blocker" x="1160" y="600" width="40" height="40">
+   <properties>
+    <property name="blocker" value=""/>
+   </properties>
+  </object>
+  <object name="traps" x="320" y="360" width="40" height="40">
+   <properties>
+    <property name="respawn" value=""/>
+    <property name="trap" value="up"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
